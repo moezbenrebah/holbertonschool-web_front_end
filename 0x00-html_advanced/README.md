@@ -6,7 +6,7 @@ For this project, students are expected to look at this concept:
 
 - [HTML - elements of a web page](https://intranet.hbtn.io/concepts/139)
 
-![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/12/5d9e347964a9cc0e3e24.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20201204%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201204T113134Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=a8aaf8ce3443b2f4f52e4d41274f951d8fe5bfdb128596cb84a7829e2a249716)
+![](https://i.imgur.com/Ez5kRqR.jpg)
 
 ## Welcome!
 
@@ -52,10 +52,10 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 # Sitemap of the project
 
-![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/4/4dec2ba9d84a0a55355b1c1e2de4c57854a2d35a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20201204%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201204T113134Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b1fe2e383c76e1b4972b0c17563b8a561969cf88dc1c12577d85a67a99a88a42)
+![](https://i.imgur.com/Ro5WMyi.png)
 
 <br>
 
 # Wireframe of Techium project
 
-![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/4/3e4f9e2b3cb73d1768229e086f5da35337be5c6c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20201204%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201204T113134Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=4270cf5f0cb6d537f3cb02855414ff8918fc3451ff30cc0c84a8fd3b4df9d428)
+![](https://i.imgur.com/g3LtCFY.png)
