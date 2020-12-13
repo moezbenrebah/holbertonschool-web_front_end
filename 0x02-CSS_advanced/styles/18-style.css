@@ -186,7 +186,7 @@ template {
   --nav-item-link-hover: var(--color-primary);
 }
 
-::navbar-menu {
+.navbar-menu {
   float: right;
 }
 
