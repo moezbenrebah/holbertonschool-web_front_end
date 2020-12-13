@@ -53,15 +53,15 @@ a:link {
   text-decoration: none;
 }
 
-a[href*="tbm=isch"]:visited {
+a:visited {
   font-style: italic;
 }
 
-a[href*="tbm=isch"]:hover {
+a:hover {
   text-decoration: underline;
 }
 
-a[href*="tbm=isch"]:link {
+a:active {
   background-color: var(--color-light-grey);
 }
 
