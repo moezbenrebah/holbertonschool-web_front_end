@@ -264,7 +264,7 @@ a:active {
 .nav {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  font-style: none;
+  list-style-type: none;
   text-align: center;
 }
 
