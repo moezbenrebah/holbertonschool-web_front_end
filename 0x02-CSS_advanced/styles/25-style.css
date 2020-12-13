@@ -208,7 +208,7 @@ html {
 }
 
 body {
-  color: text-color;
+  color: var(--text-color);
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
@@ -220,6 +220,7 @@ body {
 }
 
 .section-header {
+  text-align: var(--section-header-align);
   padding: var(--section-header-padding);
 }
 
@@ -272,7 +273,7 @@ h6 {
 }
 
 a:link {
-  color: #161616;
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -376,7 +377,7 @@ ul.row {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
   background: var(--color-black);
-  --button-color: var(--button-white);
+  --button-color: var(--color-white);
 }
 
 .container {
