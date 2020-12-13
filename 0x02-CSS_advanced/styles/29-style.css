@@ -293,7 +293,7 @@ body {
   height: 20%;
 }
 
-.nav .nave-item .nav-link:hover::before {
+.nav .nav-item:hover > .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;
 }
