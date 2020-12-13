@@ -198,7 +198,7 @@ html {
   font-size: 62.5%;
 }
 
-.header .dark {
+.dark {
   background-color: var(--color-black);
 }
 
