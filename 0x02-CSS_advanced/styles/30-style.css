@@ -479,7 +479,6 @@ ul.row {
 .social-link > svg {
   fill: var(--text-color);
 }
-
 .card-work .card-outer {
   position: relative;
   overflow: hidden;
@@ -500,7 +499,7 @@ ul.row {
   z-index: 1;
 }
 
-.card-inner:hover {
+.card-work:hover .card-inner {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -512,7 +511,7 @@ ul.row {
   position: relative;
 }
 
-.card-work .card-title {
+.card-work .card-title a {
   display: block;
   text-decoration: none;
   padding-top: 45%;
