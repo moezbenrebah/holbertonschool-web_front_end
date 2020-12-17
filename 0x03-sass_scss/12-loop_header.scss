@@ -1,0 +1,7 @@
+/* loop through a list of sizes */
+$H: (1px, 2px, 3px, 4px, 5px);
+@for $i from 1 through 5 {
+  h#{$i} {
+    font-size: nth($H, $i);
+  }
+}
