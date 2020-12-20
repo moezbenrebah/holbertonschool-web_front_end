@@ -51,6 +51,6 @@ Required images for your HTML files
 Download the images linked in the [CSS Advanced](https://github.com/Boul3ez85/holbertonschool-web_front_end/tree/main/0x02-CSS_advanced) and place them into an images directory at the root of the project.
 
 
-<p style="color:red;">HTML starter file</p>
+<span style="color:red;">HTML starter file</span>
 
 
