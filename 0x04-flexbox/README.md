@@ -52,5 +52,5 @@ Download the images linked in the [CSS Advanced](https://github.com/Boul3ez85/ho
 
 
 <span style="color:red;">HTML starter file</span>
-
+<span style="color:blue">some *blue* text</span>.
 
