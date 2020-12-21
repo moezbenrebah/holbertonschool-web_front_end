@@ -416,7 +416,7 @@ Download the images linked in the [CSS Advanced](https://github.com/Boul3ez85/ho
   <summary>Click to expand/hide file contents</summary>
     <pre>
       <code>
-      /* SUMMARY
+/* SUMMARY
     1. GLOBAL
     2. LAYOUT
     3. SECTION
@@ -928,8 +928,8 @@ Download the images linked in the [CSS Advanced](https://github.com/Boul3ez85/ho
 
 <details>
   <summary>article.html</summary>
-  <pre>
-  <code>
+    <pre>
+      <code>
   <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -1060,7 +1060,7 @@ Download the images linked in the [CSS Advanced](https://github.com/Boul3ez85/ho
     </footer>
   </body>
 </html>
-  </code>
+    </code>
   </pre>
 </details>
 
