@@ -923,14 +923,15 @@ Download the images linked in the [CSS Advanced](https://github.com/Boul3ez85/ho
   </pre>
 </details>
 
+<br>
 
 ## Files for tasks 10 and onward
 
-<details>
-  <summary>article.html</summary>
-    <pre>
-      <code>
-  <!DOCTYPE html>
+
+![](https://i.imgur.com/wYBDLMj.png)
+
+
+```
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -1060,6 +1061,4 @@ Download the images linked in the [CSS Advanced](https://github.com/Boul3ez85/ho
     </footer>
   </body>
 </html>
-      </code>
-    </pre>
-</details>
+```
