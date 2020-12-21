@@ -414,8 +414,8 @@ Download the images linked in the [CSS Advanced](https://github.com/Boul3ez85/ho
 
 <details>
   <summary>Click to expand/hide file contents</summary>
-  <pre>
-    <code>
+    <pre>
+      <code>
       /* SUMMARY
     1. GLOBAL
     2. LAYOUT
@@ -919,8 +919,7 @@ Download the images linked in the [CSS Advanced](https://github.com/Boul3ez85/ho
     font-size: 10rem;
     z-index: -1;
   }
-    
-    </code>
+   </code>
   </pre>
 </details>
 
