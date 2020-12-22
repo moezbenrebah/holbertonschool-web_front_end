@@ -753,7 +753,7 @@ ul.row {
   border-bottom: 0.2rem solid var (--color-light-grey);
 }
 
-.post-meta-list [class*="post-meta"] :nth-last-child(-n+1) {
+.post-meta-list [class*="post-meta-"]:last-child {
   border: none;
   margin-bottom: 3rem;
 }
@@ -775,6 +775,6 @@ ul.row {
   content: ", ";
 }
 
-.tag-list > li :nth-last-child(-n+1) {
+.tag-list > li:last-child::after {
   content: "";
 }
