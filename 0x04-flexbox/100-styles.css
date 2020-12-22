@@ -779,12 +779,12 @@ ul.row {
   content: "";
 }
 
-.post > img {
+.post img {
   width: 100%;
   height: auto;
 }
 
-.post-content:first-child {
+.post-content p:first-child {
   font-size: var (--font-size-x-large);
 }
 
@@ -792,6 +792,6 @@ ul.row {
   margin: 1rem 0;
   padding: 0 .5rem;
   font-size: var (--font-size-small);
-  color: var (--color-grey, var(--color-grey: #a0a0a0));
+  color: var (--color-grey);
   text-align: center;
 }
