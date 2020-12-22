@@ -354,23 +354,24 @@ ul.row {
 /* Navbar
       ============================= */
 
-.nav .nav-item {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  font-family: var(--nav-item-font-family);
-  font-weight: var(--nav-item-font-weight);
-  font-size: var(--nav-item-font-size);
-  letter-spacing: var(--nav-item-letter-spacing);
-}
+.nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
 
-.nav .nav-link {
-  display: block;
-  padding: 0.5rem 0;
-  position: relative;
-}
+  .nav .nav-item {
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+  }
+
+  .nav .nav-item + .nav-item {
+    margin: var(--nav-item-margin);
+  }
 
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
