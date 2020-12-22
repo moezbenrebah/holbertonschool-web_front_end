@@ -504,7 +504,7 @@ ul.row {
 }
 
 .section-hero .section-category {
-  color, Value: var (--color-white);
+  color: var (--color-white);
   text-transform: uppercase;
 }
 
