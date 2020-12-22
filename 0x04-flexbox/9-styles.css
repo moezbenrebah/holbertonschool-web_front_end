@@ -407,7 +407,7 @@ ul.row {
    padding: var(--header-padding);
    position: relative;
    z-index: 3;
-   background: transparent !important;
+   background: transparent;
 }
 
 /* Footer
@@ -532,7 +532,7 @@ ul.row {
 /* Section ABOUT US
       ============================= */
   
-.section-about-us[class*="col-"] {
+.section-about-us[class^="col-"] {
   align-self: center;   
  }
 
