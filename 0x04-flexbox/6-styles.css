@@ -354,19 +354,16 @@ ul.row {
 /* Navbar
       ============================= */
 
-.nav {
+.nav .nav-item {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
-
-  .nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
   letter-spacing: var(--nav-item-letter-spacing);
-}
 }
 
 .nav .nav-link {
