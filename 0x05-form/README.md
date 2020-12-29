@@ -9,37 +9,37 @@
 
 #### Read or watch:
 
-- [An Extensive Guide To Web Form Usability — Smashing Magazine]()
-- [Forms - UX Movement]()
-- [Placeholders in Form Fields are Harmful (Video)]()
-- [The Anatomy of Accessible Forms: Best Practices | Deque]()
-- [Pure CSS Custom Error Messaging for Default Form Elements – Sarah Holley Design]()
+- [An Extensive Guide To Web Form Usability — Smashing Magazine](https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability/)
+- [Forms - UX Movement](https://uxmovement.com/category/forms/)
+- [Placeholders in Form Fields are Harmful (Video)](https://www.nngroup.com/videos/placeholders-form-fields/)
+- [The Anatomy of Accessible Forms: Best Practices | Deque](https://www.deque.com/blog/anatomy-of-accessible-forms-best-practices/)
+- [Pure CSS Custom Error Messaging for Default Form Elements – Sarah Holley Design](http://sarahholleydesign.com/pure-css-custom-error-messaging-for-default-form-elements/)
 
 
 #### MDN resources:
 
-- [HTML forms - Learn web development | MDN]()
-- [form - HTML: Hypertext Markup Language | MDN]()
-- [fieldset: The Field Set element - HTML: Hypertext Markup Language | MDN]()
-- [legend - HTML: Hypertext Markup Language | MDN]()
-- [label - HTML: Hypertext Markup Language | MDN]()
-- [input: The Input (Form Input) element - HTML: Hypertext Markup Language | MDN]()
-- [tabindex - HTML: Hypertext Markup Language | MDN]()
-- [accesskey - HTML: Hypertext Markup Language | MDN]()
-- [button: The Button element - HTML: Hypertext Markup Language | MDN]()
-- [select - HTML: Hypertext Markup Language | MDN]()
-- [optgroup - HTML: Hypertext Markup Language | MDN]()
-- [datalist - HTML: Hypertext Markup Language | MDN]()
-- [textarea - HTML: Hypertext Markup Language | MDN]()
-- [Form Validation UX in HTML and CSS | CSS-Tricks]()
-- [Constraint validation - Developer guides | MDN]()
-- [:invalid - CSS: Cascading Style Sheets | MDN]()
-- [:valid - CSS: Cascading Style Sheets | MDN]()
-- [:optional - CSS: Cascading Style Sheets | MDN]()
+- [HTML forms - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+- [form - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+- [fieldset: The Field Set element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset)
+- [legend - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend)
+- [label - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
+- [input: The Input (Form Input) element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+- [tabindex - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
+- [accesskey - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey)
+- [button: The Button element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
+- [select - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+- [optgroup - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup)
+- [datalist - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist)
+- [textarea - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+- [Form Validation UX in HTML and CSS | CSS-Tricks](https://css-tricks.com/form-validation-ux-html-css/)
+- [Constraint validation - Developer guides | MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation)
+- [:invalid - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid)
+- [:valid - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:valid)
+- [:optional - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:optional)
 
 
 ## Learning objectives
-At the end of this project, you are expected to be able to [explain to anyone](), <b>without the help of Google:</b>
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/2012/04/feynman-technique/), <b>without the help of Google:</b>
 
 - How to create an HTML5 form
 - How to choose the right input type
