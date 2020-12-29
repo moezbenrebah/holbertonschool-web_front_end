@@ -686,7 +686,9 @@ label {
   padding: 0 0 .5rem;
 }
 
-input[attribute="type"] textarea {
+input[type="text"],
+input[type="email"],
+textarea {
   position: relative;
   width: 100%;
   padding: 1.2rem;
@@ -697,11 +699,14 @@ input[attribute="type"] textarea {
   outline: 0;
 }
 
-input[attribute="type"] {
+input[type="text"],
+input[type="email"] {
   padding-right: 3rem;
 }
 
-input[attribute="type"]:focus textarea:focus {
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
   border: .1rem solid var(--color-grey);
   background-color: var(--color-light-grey);
 }
