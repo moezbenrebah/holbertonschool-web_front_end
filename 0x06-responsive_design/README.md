@@ -1,6 +1,6 @@
 # Responsive Design
 
-
+<br>
 
 For this project, students are expected to look at this concept:
 
@@ -34,7 +34,7 @@ Read more resources here:
 
 [Responsive Web Design Basics | Web Fundamentals | Google Developers](https://web.dev/responsive-web-design-basics/)
 
-
+<br>
 
 
 ![](https://i.imgur.com/bik0MxU.jpg)
