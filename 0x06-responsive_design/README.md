@@ -1,6 +1,6 @@
 # Responsive Design
 
-<hr>
+
 
 For this project, students are expected to look at this concept:
 
@@ -33,6 +33,7 @@ The viewport is a meta seen in our first HTML advanced module. The width=device-
 Read more resources here:
 
 [Responsive Web Design Basics | Web Fundamentals | Google Developers](https://web.dev/responsive-web-design-basics/)
+
 
 
 
