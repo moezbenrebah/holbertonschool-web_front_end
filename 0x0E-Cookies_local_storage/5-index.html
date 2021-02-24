@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Cookies</title>
+    </head>
+    <body>
+    </body>
+    <script type="application/javascript">
+        let availableItems = ['Shampoo', 'Soap', 'Sponge', 'Water'];
+
+        if (localStorage === undefined) {
+            alert("Sorry, your browser does not support Web storage. Try again with a better one");
+        } else {
+            createStore();
+            displayCart();
+        }
+
+        function addItemToCart(item) {
+            localStorage.setItem(item, true);
+        }
+
+        function createStore() {
+            let a = document.createElement('ul');
+
+            for (let i = 0; i < availableItems.length; i++) {
+                let list = document.createElement('li');
+                list.onclick = function() {
+                    addItemToCart(availableItems[i]);
+                }
+                list.appendChild(document.createTextNode(availableItems[i]));
+                a.appendChild(list);
+            }
+            document.body.appendChild(a);
+        }
+
+        function displayCart() {
+            if (localStoragel.length) {
+                let para = document.createElement('p');
+                para.innerHTML = `You previously had ${localStorage.length} items in your cart`;
+                document.body.append(p);
+            }
+        }
+    </script>
+</html>
