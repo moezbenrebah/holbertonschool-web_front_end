@@ -9,16 +9,16 @@
     <script type="application/javascript">
         let availableItems = ['Shampoo', 'Soap', 'Sponge', 'Water'];
 
-        if (localStorage === undefined) {
-            alert("Sorry, your browser does not support Web storage. Try again with a better one");
-        } else {
+        if (typeof(Storage) !== undefined) {
             createStore();
             displayCart();
+        } else {
+            alert("Sorry, your browser does not support Web storage. Try again with a better one");
         }
 
         function addItemToCart(item) {
             localStorage.setItem(item, true);
-        }
+        };
 
         function createStore() {
             let a = document.createElement('ul');
@@ -31,14 +31,14 @@
                 list.appendChild(document.createTextNode(availableItems[i]));
                 a.appendChild(list);
             }
-            document.body.appendChild(a);
-        }
+            document.body.append(a);
+        };
 
         function displayCart() {
             if (localStoragel.length) {
-                let para = document.createElement('p');
+                let para = document.createElement('P');
                 para.innerHTML = `You previously had ${localStorage.length} items in your cart`;
-                document.body.append(p);
+                document.body.append(para);
             }
         }
     </script>

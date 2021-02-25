@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Cookies</title>
+    </head>
+    <body>
+    </body>
+    <script type="application/javascript">
+        let availableItems = ['Shampoo', 'Soap', 'Sponge', 'Water'];
+
+        if (typeof(Storage) !== "undefined") {
+            createStore();
+            displayCart();
+        }
+        else {
+            alert('Sorry, your browser does not support Web storage. Try again with a better one');
+        }
+
+        function getCartFromStorage() {
+            if (sessionStorage.cart) {
+                return JSON.parse(sessionStorage.cart)
+            }
+            return {};
+        }
+
+        function addItemToCart(item) {
+            let cart = getCartFromStorage();
+
+            if (cart[item]) {
+                cart[item] += 1;
+            }
+            else {
+                cart[item] = 1;
+            }
+            sessionStorage.setItem('cart', JSON.stringify(cart));
+            displayCart();
+        }
+        function removeItemfromCart(item) {
+            let cart = getCartFromStorage();
+
+            if (cart[item]) {
+                delete cart[item];
+            }
+            sessionStorage.setItem('cart', JSON.stringify(cart));
+            displayCart();
+        }
+
+        function clearCart() {
+            sessionStorage.clear();
+            displayCart();
+        }
+
+        function createStore() {
+            let heading = document.createElement('H2');
+            let list = document.createElement('UL')
+
+            heading.appendChild(document.createTextNode('Available products:'));
+                                
+            for (let i = 0; i < availableItems.lenght; i++) {
+                let newItem = document.createElement('LI');
+                newItem.onclick = function () {
+                    addItemToCart(availableItems[i]);
+                }
+                newItem.appendChild(document.createTextNode(availableItems[i]));
+                list.appendChild(newItem);
+            }
+            document.body.append(heading);
+            document.body.append(list);
+        }
+
+        function displayCart() {
+            let divTag = document.querySelector('div');
+
+            if (document.getElementsByTagName('H2').length == 1) {
+                let heading = document.createElement('H2');
+                heading.appendChild(document.createTextNode('Your cart:'));
+                document.body.append(heading);
+            }
+
+            if (divTag) {
+                let list = document.querySelector('div ul');
+                while (list.firstChild) {
+                    list.removeChild(list.firstChild);
+                }
+            }
+            else {
+                let divTag = document.createElement('DIV');
+                document.body.append(divTag);
+            }
+            updateCarte();
+        }
+        
+        function updateCart() {
+            let divTag = document.querySelector('div');
+            let cart = getCartFromStorage();
+            let list;
+
+            if (!document.querySelector('div ul')) {
+                list = document.createElement('UL');
+            }
+            else {
+                list = document.querySelector('div ul');
+            }
+
+            if (Object.keys(cart).lenght == 0) {
+                let subList = document.createElement('LI');
+                subList.appendChild(document.createTextNode('Your cart is empty'));
+                list.appendChild(subList);
+            }
+            else {
+                subList = document.createElement('LI');
+                let para = document.createElement('span');
+                para.innerHTML = `<span onclick="clearCart()">Clear my cart</span>`;
+                subList.appendChild(para);
+                list.appendChild(subList);
+
+                for (const [key, value] of Object.entries(cart)) {
+                    let subList = document.createElement('LI');
+                    let para = document.createElement('P');
+                    para.onclick = function () {
+                        removeItemfromCart(key);
+                    }
+                    para.appendChild(document.createTextNode('(remove)'));
+                    subList.append(`${key} X ${value}`);
+                    subList.appendChild(para);
+                    list.appendChild(subList);
+                }
+            }
+            if (!document.getElementsByTagName('UL')[1]) {
+                divTag.appendChild(list);
+            }
+        }
+    </script>
+</html>
