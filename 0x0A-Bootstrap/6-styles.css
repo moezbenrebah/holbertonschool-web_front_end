@@ -42,7 +42,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
   
 .border-bottom {
-  border-color: #E0003C !important;
+  border-bottom: 1px solid #E0003C !important;
 }
 
 .card-header {
