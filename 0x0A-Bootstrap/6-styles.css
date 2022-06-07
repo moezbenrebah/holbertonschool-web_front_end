@@ -29,8 +29,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
   
 .card, .card-container, .card-footer {
-  border-color: #E0003C !important;
+  border: 1px solid #E0003C;
   border-radius: 1rem !important;
+  -webkit-border-radius: 1rem !important;
+  -moz-border-radius: 1rem !important;
+  -ms-border-radius: 1rem !important;
+  -o-border-radius: 1rem !important;
 }
   
 .border-bottom {
