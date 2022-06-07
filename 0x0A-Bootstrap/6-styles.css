@@ -1,5 +1,5 @@
 .btn-primary {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   background-color: #E0003C !important;
   border-color: #E0003C !important;
 }
@@ -7,7 +7,9 @@
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
+  color: #FFFFFF !important;
   background-color: #BC1340 !important;
+  border-color: #BC1340 !important;
 }
   
 .btn-outline-primary {
