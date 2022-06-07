@@ -43,8 +43,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .card-header {
   background-color: #E0003C !important;
-  color: white !important;
-  border-color: #E0003C !important;
+  color: #FFFFFF !important;
   border-radius: 1rem 1rem 0 0 !important;
 }
 
