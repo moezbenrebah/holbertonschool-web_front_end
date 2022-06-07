@@ -23,8 +23,9 @@
   border-color: #E0003C !important;
 }
   
-a, a:hover, a:focus {
+a.text-dark:hover, a.text-dark:focus {
   color: #E0003C !important;
+  text-transform: none;
 }
   
 .card, .card-container, .card-footer {
