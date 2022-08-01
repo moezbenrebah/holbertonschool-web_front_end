@@ -17,4 +17,4 @@ let addBy1000 = addBy(1000);
 let divideBy10 = divideBy(10);
 let divideBy100 = divideBy(100);
 
-console.log(addBy100, addBy1000, divideBy10, divideBy100)
+console.log('hello world!')
